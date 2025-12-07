@@ -74,7 +74,7 @@ The standard process:
 
 ---
 ### 💸 The Consequence: A $2.1 Billion Annual Loss
-Because facilities operate blindly based on manual input, they are essentially burning money. This lack of verification creates a massive financial bleed across the U.S. waste industry.
+This lack of verification and material identification creates a massive financial bleed across the U.S. waste industry.
 
 The industry loses an estimated **$2.1 Billion annually** due to three main factors:
 
