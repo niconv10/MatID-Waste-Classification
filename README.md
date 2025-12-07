@@ -97,6 +97,8 @@ pie title "Financial losses in U.S MRFs ($2.1B Total)"
 
 ---
 
+---
+
 ## 💡 2. The Solution: MatID App
 **Accuracy, Speed, and Trust at the Tipping Floor**
 
@@ -111,16 +113,16 @@ We optimized the dumping cycle to ensure speed and compliance.
   <table>
     <tr>
       <td align="center" width="300">
-        <img src="assets/truck_weight.png" width="250" alt="Step 1">
+        <img src="assets/truck_scale.png" width="250" alt="Step 1">
         <br>
         <b>Step 1: Arrival & Weigh-in</b><br>
-        <i>Truck arrives at the scale house and weights in.</i>
+        <i>Truck arrival and weights-in.</i>
       </td>
       <td align="center" width="300">
-        <img src="assets/truck_dump.png" width="250" alt="Step 2">
+        <img src="assets/truc_dump.png" width="250" alt="Step 2">
         <br>
         <b>Step 2: Dumping</b><br>
-        <i>Truck dumps material onto the designated area.</i>
+        <i>Dumping Material.</i>
       </td>
     </tr>
     <tr>
@@ -128,13 +130,13 @@ We optimized the dumping cycle to ensure speed and compliance.
         <img src="assets/ipad_picture.png" width="250" alt="Step 3">
         <br>
         <b>Step 3: AI Material Scan</b><br>
-        <i>Spotter captures image; AI classifies load instantly.</i>
+        <i>Spotter captures images with tablet using MatID app.</i>
       </td>
       <td align="center" width="300">
         <img src="assets/print_ticket.png" width="250" alt="Step 4">
         <br>
-        <b>Step 4: Ticket Issue</b><br>
-        <i>Mobile belt printer issues ticket with visual proof.</i>
+        <b>Step 4: Ticket Prints</b><br>
+        <i>Mobile belt printer issues ticket instantly.</i>
       </td>
     </tr>
   </table>
@@ -145,4 +147,4 @@ We optimized the dumping cycle to ensure speed and compliance.
 * **📸 Irrefutable Visual Proof:** Every ticket includes a **timestamped photo** to prevent disputes.
 * **🚫 Fraud Prevention:** The AI eliminates human error and intentional misclassification at the point of service.
 
-> **Technical Note:** The app runs a quantized version of our **AlexNet** model directly on edge devices (iPad), requiring no internet connection for inference.
+> **Technical Note:** The app runs a quantized version of our **AlexNet** model directly on edge devices (iPad), requiring
