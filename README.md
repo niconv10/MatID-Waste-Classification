@@ -92,6 +92,8 @@ pie title "Financial losses in U.S MRFs ($2.1B Total)"
     "Contaminated Loads ($210M)" : 210
 ---
 
+---
+
 ## 💡 2. The Solution: MatID App
 **Accuracy, Speed, and Trust at the Tipping Floor**
 
