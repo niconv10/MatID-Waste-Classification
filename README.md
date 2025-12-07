@@ -27,14 +27,8 @@
 <br>
 
 ---
-<p align="center">
-<a href="#-the-problem"><strong>Problem</strong></a> &nbsp;&nbsp;│&nbsp;&nbsp;
-<a href="#-the-solution"><strong>Solution</strong></a> &nbsp;&nbsp;│&nbsp;&nbsp;
-<a href="#-technical-approach"><strong>Technical</strong></a> &nbsp;&nbsp;│&nbsp;&nbsp;
-<a href="#-experiments"><strong>Experiments</strong></a> &nbsp;&nbsp;│&nbsp;&nbsp;
-<a href="#-results"><strong>Results</strong></a> &nbsp;&nbsp;│&nbsp;&nbsp;
-<a href="#-deliverables"><strong>Deliverables</strong></a>
-</p>
+markdown| [Problem](#-the-problem) | [Solution](#-the-solution) | [Technical](#-technical-approach) | [Experiments](#-experiments) | [Results](#-results) | [Deliverables](#-deliverables) |
+|:---:|:---:|:---:|:---:|:---:|:---:|
 
 ---
 
