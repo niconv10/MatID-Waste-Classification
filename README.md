@@ -733,7 +733,7 @@ View the full interactive experiment tracking:
 
 ### 👤 About the Author
 
-**Nicolas Navarro ** · Data Science & Analytics · Florida Atlantic University
+**Nicolas Navarro** · Data Science & Analytics · Florida Atlantic University
 
 [![GitHub](https://img.shields.io/badge/GitHub-niconv13-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/niconv13)
 
