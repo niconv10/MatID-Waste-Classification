@@ -27,8 +27,7 @@
 <br>
 
 ---
-[<span style="color:#6366F1">Problem</span>](#-the-problem)  ·  [<span style="color:#8B5CF6">Solution</span>](#-the-solution)  ·  [<span style="color:#EC4899">Technical</span>](#-technical-approach)  ·  [<span style="color:#F59E0B">Experiments</span>](#-experiments)  ·  [<span style="color:#10B981">Results</span>](#-results)  ·  [<span style="color:#3B82F6">Deliverables</span>](#-deliverables)
-
+[![Problem](https://img.shields.io/badge/Problem-6366F1?style=flat)](/#-the-problem)  ·  [![Solution](https://img.shields.io/badge/Solution-8B5CF6?style=flat)](#-the-solution)  ·  [![Technical](https://img.shields.io/badge/Technical-EC4899?style=flat)](#-technical-approach)  ·  [![Experiments](https://img.shields.io/badge/Experiments-F59E0B?style=flat)](#-experiments)  ·  [![Results](https://img.shields.io/badge/Results-10B981?style=flat)](#-results)  ·  [![Deliverables](https://img.shields.io/badge/Deliverables-3B82F6?style=flat)](#-deliverables)
 </div>
 
 <br>
