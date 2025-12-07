@@ -478,7 +478,7 @@ We conducted **7 systematic experiments** to understand how different hyperparam
 
 The baseline configuration using AlexNet with default hyperparameters.
 
-<img src="assets/results/1_Baseline_AlexNet_plots.png" width="100%" alt="Baseline AlexNet Results">
+<img src="assets/1_Baseline_AlexNet_plots.png" width="100%" alt="Baseline AlexNet Results">
 
 **Key Observations:**
 - Achieved **100% validation accuracy** by epoch 2
@@ -494,7 +494,7 @@ The baseline configuration using AlexNet with default hyperparameters.
 
 Testing the effect of data augmentation (flips, rotations, brightness/contrast adjustments).
 
-<img src="assets/results/2_WithAugmentation_plots.png" width="100%" alt="With Augmentation Results">
+<img src="assets/2_WithAugmentation_plots.png" width="100%" alt="With Augmentation Results">
 
 **Key Observations:**
 - Peak accuracy: **100%** (achieved multiple times)
@@ -510,7 +510,7 @@ Testing the effect of data augmentation (flips, rotations, brightness/contrast a
 
 Comparing batch size 16 vs 64 to understand the effect on convergence.
 
-<img src="assets/results/3_BatchSize64_plots.png" width="100%" alt="Batch Size 64 Results">
+<img src="assets/3_BatchSize64_plots.png" width="100%" alt="Batch Size 64 Results">
 
 **Key Observations:**
 - Achieved **100% validation accuracy** by epoch 3
@@ -526,7 +526,7 @@ Comparing batch size 16 vs 64 to understand the effect on convergence.
 
 Testing a 10× higher learning rate to understand stability limits.
 
-<img src="assets/results/4_LR_0_001_plots.png" width="100%" alt="Higher Learning Rate Results">
+<img src="assets/4_LR_0.001_plots.png" width="100%" alt="Higher Learning Rate Results">
 
 **Key Observations:**
 - ⚠️ **Unstable training** — high variance in both loss and accuracy
@@ -543,7 +543,7 @@ Testing a 10× higher learning rate to understand stability limits.
 
 Comparing Adam vs SGD with momentum (0.9).
 
-<img src="assets/results/5_SGD_Optimizer_plots.png" width="100%" alt="SGD Optimizer Results">
+<img src="assets/5_SGD_Optimizer_plots.png" width="100%" alt="SGD Optimizer Results">
 
 **Key Observations:**
 - Achieved **100% validation accuracy** by epoch 3
@@ -559,7 +559,7 @@ Comparing Adam vs SGD with momentum (0.9).
 
 Testing a deeper architecture (16 layers vs AlexNet's 8).
 
-<img src="assets/results/6_VGG16_plots.png" width="100%" alt="VGG16 Results">
+<img src="assets/6_VGG16_plots.png" width="100%" alt="VGG16 Results">
 
 **Key Observations:**
 - Achieved **100% validation accuracy** by epoch 2
@@ -575,7 +575,7 @@ Testing a deeper architecture (16 layers vs AlexNet's 8).
 
 Testing ResNet18 with skip connections.
 
-<img src="assets/results/7_ResNet18_plots.png" width="100%" alt="ResNet18 Results">
+<img src="assets/7_ResNet18_plots.png" width="100%" alt="ResNet18 Results">
 
 **Key Observations:**
 - 🏆 **100% validation accuracy from epoch 1** — best performer
