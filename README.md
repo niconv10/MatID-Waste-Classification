@@ -35,13 +35,13 @@ To understand the waste problem, we must look at the source. Florida is defined 
   <table>
     <tr>
       <td align="center">
-        <img src="assets/florida_beauty.jpg" width="350" alt="Florida Landscaping">
+        <img src="assets/maintenance_sample.png" width="400" alt="Florida Landscaping">
         <br>
         <b>The Standard of Beauty</b><br>
         <i>Millions of tons of Yard Waste from daily maintenance.</i>
       </td>
       <td align="center">
-        <img src="assets/florida_construction.jpg" width="350" alt="Construction Boom">
+        <img src="assets/development_sample.png" width="400" alt="Construction Boom">
         <br>
         <b>The Construction Explosion</b><br>
         <i>Massive C&D debris from rapid urban development.</i>
