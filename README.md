@@ -95,25 +95,54 @@ pie title "Financial losses in U.S MRFs ($2.1B Total)"
 
 ---
 
+---
+
 ## 💡 2. The Solution: MatID App
 **Accuracy, Speed, and Trust at the Tipping Floor**
 
-MatID is not just a model; it is an operational tool. By deploying our AI on rugged tablets, we identify the exact material trucks bring into the plant with **>99% accuracy** using just a couple of pictures.
+MatID is not just a model; it is an operational tool. By deploying our AI on rugged tablets, we identify the exact material trucks bring into the plant with **>99% accuracy**.
 
 This eliminates billing disputes instantly and gives plant managers clean, trustworthy data so they can finally make smart, data-driven decisions.
 
-### 📲 The Workflow: "Dump, Scan, Ticket"
-We streamlined the process to ensure the entire dumping cycle takes **less than 5 minutes**.
+### 📲 The Workflow: Streamlined Operation
+We optimized the dumping cycle to ensure speed and compliance.
 
-1.  **🚛 Dump:** The truck dumps material onto the designated area.
-2.  **📸 Scan:** A spotter captures images of the pile using the **MatID App** on a rugged tablet. The AlexNet model classifies the material instantly.
-3.  **🖨️ Ticket:** A mobile belt printer issues the ticket instantly with the correct material code.
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="300">
+        <img src="assets/truck_weight.png" width="250" alt="Step 1">
+        <br>
+        <b>Step 1: Arrival & Weigh-in</b><br>
+        <i>Truck arrives at the scale house and weights in.</i>
+      </td>
+      <td align="center" width="300">
+        <img src="assets/truck_dump.png" width="250" alt="Step 2">
+        <br>
+        <b>Step 2: Dumping</b><br>
+        <i>Truck dumps material onto the designated area.</i>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="300">
+        <img src="assets/ipad_picture.png" width="250" alt="Step 3">
+        <br>
+        <b>Step 3: AI Material Scan</b><br>
+        <i>Spotter captures image; AI classifies load instantly.</i>
+      </td>
+      <td align="center" width="300">
+        <img src="assets/print_ticket.png" width="250" alt="Step 4">
+        <br>
+        <b>Step 4: Ticket Issue</b><br>
+        <i>Mobile belt printer issues ticket with visual proof.</i>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ### 🛡️ Key Operational Benefits
-* **🚀 Increased Turnaround:** By removing manual inspection delays, the entire process is streamlined to under 5 minutes, reducing truck lines.
-* **📸 Irrefutable Visual Proof:** Every printed ticket includes a **timestamped photo** of the specific load. This prevents future disputes and insurance claims.
-* **🚫 Fraud Prevention:** The AI classifies the material and selects the correct billing code automatically. This eliminates human error, misclassification, and intentional fraud at the point of service.
+* **🚀 Increased Turnaround:** By removing manual inspection delays, the entire process is streamlined to under 5 minutes.
+* **📸 Irrefutable Visual Proof:** Every ticket includes a **timestamped photo** to prevent disputes.
+* **🚫 Fraud Prevention:** The AI eliminates human error and intentional misclassification at the point of service.
 
-> **Technical Note:** The app runs a quantized version of our **AlexNet** model directly on the edge device, requiring no internet connection for inference.
-
----
+> **Technical Note:** The app runs a quantized version of our **AlexNet** model directly on edge devices (iPad), requiring no internet connection for inference.
