@@ -299,8 +299,8 @@ Our dataset consists of real-world images from Material Recovery Facilities, spl
 
 | Class | Description | Train | Validation |
 |-------|-------------|:-----:|:----------:|
-| **C&D** | Construction & Demolition debris | *450* | *112* |
-| **Yardwaste** | Organic landscape materials | *520* | *130* |
+| **C&D** | Construction & Demolition debris | 450 | 112 |
+| **Yardwaste** | Organic landscape materials | 520 | 130 |
 
 <br>
 
@@ -470,3 +470,4 @@ Made with 🧠 for smarter waste management
 <br>
 
 </div>
+---
