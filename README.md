@@ -50,6 +50,6 @@ To understand the waste problem, we must look at the source. Florida is defined 
   </table>
 </div>
 
-> **The Result:** These two massive streams end up mixed in the same dump trucks. **This is where the problem begins.**
+> **The Result:** Landscape maintenance and rapid city development generate millions of tons of waste per year. **This is where the problem begins.**
 
 ---
