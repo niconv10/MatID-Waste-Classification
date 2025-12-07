@@ -26,27 +26,19 @@ Use these links to jump to specific sections of the project:
 
 ---
 
-## 🚜 1. Problem & Motivation: The Waste Industry Challenge
-**Handling Massive, Mixed Waste Streams**
+## ♻️ 1. Problem & Motivation: The $2.1 Billion Visibility Gap
+**The "Black Box" Truck Problem**
 
-The waste management industry faces a critical bottleneck at the facility gate. Two distinct, high-volume waste streams are constantly entering facilities, often mixed in the same truck:
+Every day, hundreds of trucks dump massive loads at Material Recovery Facilities (MRFs). The plant charges tipping fees based on material type, but they face a critical problem: **they can't see inside the truck.**
 
-1.  **Construction & Demolition (C&D):** Concrete, lumber, and debris from rapid urban development and infrastructure projects.
-2.  **Yard Waste (Vegetative):** Organic material from constant landscaping maintenance.
+Currently, facilities rely solely on the **driver's declaration** of what they are carrying. This manual process is flawed and easily exploited. When the declaration doesn't match reality (e.g., stating "clean concrete" but dumping mixed trash), the plant loses significant money.
 
-**The Operational Gap:**
-Currently, identifying the ratio of these materials relies on human estimation. This manual process is subjective, slow, and prone to error, leading to:
+### The Financial Impact
+This lack of verification costs U.S. recycling plants an estimated **$2.1 Billion every year**.
 
-* **📉 Revenue Leakage:** Inaccurate tipping fees due to poor volume estimation.
-* **⚠️ Cross-Contamination:** Organic waste hiding in concrete loads renders recyclable materials useless.
-* **🚫 Lack of Traceability:** No digital record or visual proof to verify loads with clients.
+```mermaid
+pie title Annual Financial Losses in U.S. MRFs ($2.1B Total)
+    "Fraud & Misclassification ($1.2B)" : 1200
+    "Lack of Visual Proof ($630M)" : 630
+    "Contaminated Loads ($210M)" : 210
 
-**MatID** addresses this operational inefficiency by deploying automated Computer Vision at the weigh station to classify incoming loads with precision.
-
-### 📸 The Dataset: Distinguishing Similar Textures
-Our model was trained on real-world samples to solve the visual ambiguity between dirty construction wood and organic branches.
-
-| Class A: Construction (C&D) | Class B: Yard Waste |
-| :---: | :---: |
-| <img src="assets/cnd_sample.png" width="400" alt="Construction Waste"> | <img src="assets/yard_sample.jpeg" width="400" alt="Yard Waste"> |
-| *High-density debris: Concrete, Rebar, Lumber.* | *Organic material: Branches, Grass, Stumps.* |
