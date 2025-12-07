@@ -73,7 +73,6 @@ The standard process:
 > **The Critical Flaw:** At no point is there a reliable visual verification to ensure the dumped material matches the driver's declaration.
 
 ---
----
 
 ### 💸 The Consequence: A $2.1 Billion Annual Loss
 Because facilities operate blindly based on the driver's word, they are essentially burning money. This lack of verification creates a massive financial bleed across the U.S. waste industry.
