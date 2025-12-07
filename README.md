@@ -31,8 +31,8 @@ Use these links to jump to specific sections of the project:
 ### The Florida Context: Beauty & Boom
 To understand the waste problem, we must look at where it comes from. Florida is defined by two massive forces:
 
-1.  **The Standard of Beauty (Maintenance):** In Florida, keeping our state green and clean is a daily obsession. Manicured golf courses, neighborhoods, and highways generate millions of tons of **Yard Waste** annually.
-2.  **The Construction Explosion (Development):** Our state is defined by growth. Every new condo, outlet mall, and high-rise creates massive amounts of **Construction & Demolition (C&D)** debris.
+1.  **The Standard of Beauty (Maintenance):** In Florida, keeping the state green and clean is a daily obsession. Manicured golf courses, neighborhoods, and highways generate millions of tons of **Yard Waste** annually.
+2.  **The Construction Explosion (Development):** Florida state is defined by growth. Every new condo, outlet mall, and high-rise creates massive amounts of **Construction & Demolition (C&D)** debris.
 
 > **The Result:** Landscape maintenance and rapid city development generate millions of tons of waste per year. **This is where the problem begins.**
 
