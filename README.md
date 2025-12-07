@@ -13,6 +13,11 @@
 
 <br>
 
+<!-- Quick Stats Highlight -->
+🎯 **100% Accuracy** · 📊 **7 Experiments** · 🧠 **3 Architectures** · ⚡ **15 Epochs** · 🖼️ **952 Images**
+
+<br>
+
 <!-- Modernized Badge Row - Monochrome Theme -->
 [![Python](https://img.shields.io/badge/Python_3.10-000000?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org)
@@ -34,7 +39,7 @@
 
 ## 🌴 The Problem
 
-<details>
+<details open>
 <summary><b>Click to expand</b></summary>
 
 <br>
@@ -172,7 +177,7 @@ This verification gap creates a massive financial bleed across the U.S. waste in
 
 ## 💡 The Solution
 
-<details>
+<details open>
 <summary><b>Click to expand</b></summary>
 
 <br>
@@ -593,7 +598,7 @@ Testing ResNet18 with skip connections.
 
 ## 📊 Results
 
-<details>
+<details open>
 <summary><b>Click to expand</b></summary>
 
 <br>
@@ -602,13 +607,13 @@ Testing ResNet18 with skip connections.
 
 | # | Experiment | Best Val Accuracy | Final Val Accuracy | Stability |
 |:-:|------------|:-----------------:|:------------------:|:---------:|
-| 1 | Baseline AlexNet | **100.00%** | 100.00% | ✅ Stable |
-| 2 | With Augmentation | **100.00%** | 99.89% | ⚡ Variable |
-| 3 | Batch Size 64 | **100.00%** | 100.00% | ✅ Stable |
-| 4 | Higher LR (0.001) | **99.47%** | 54.83% | ❌ Collapsed |
-| 5 | SGD Optimizer | **100.00%** | 100.00% | ✅ Stable |
-| 6 | VGG16 | **100.00%** | 100.00% | ✅ Stable |
-| 7 | ResNet18 | **100.00%** | 100.00% | ✅ Stable |
+| 1 | Baseline AlexNet | ![100%](https://img.shields.io/badge/100%25-success?style=flat-square) | 100.00% | ✅ Stable |
+| 2 | With Augmentation | ![100%](https://img.shields.io/badge/100%25-success?style=flat-square) | 99.89% | ⚡ Variable |
+| 3 | Batch Size 64 | ![100%](https://img.shields.io/badge/100%25-success?style=flat-square) | 100.00% | ✅ Stable |
+| 4 | Higher LR (0.001) | ![99.47%](https://img.shields.io/badge/99.47%25-red?style=flat-square) | 54.83% | ❌ Collapsed |
+| 5 | SGD Optimizer | ![100%](https://img.shields.io/badge/100%25-success?style=flat-square) | 100.00% | ✅ Stable |
+| 6 | VGG16 | ![100%](https://img.shields.io/badge/100%25-success?style=flat-square) | 100.00% | ✅ Stable |
+| 7 | ResNet18 | ![100%](https://img.shields.io/badge/100%25-success?style=flat-square) | 100.00% | ✅ Stable |
 
 <br>
 
@@ -669,7 +674,7 @@ Actual  C&D   430        0
 
 <br>
 
-### Production Recommendation
+### 🏆 Production Recommendation
 
 Based on our experiments, the optimal configuration for deployment is:
 
@@ -699,10 +704,12 @@ View the full interactive experiment tracking:
 
 ## 📂 Deliverables
 
-<details>
+<details open>
 <summary><b>Click to expand</b></summary>
 
 <br>
+
+<div align="center">
 
 | Deliverable | Link | Description |
 |-------------|:----:|-------------|
@@ -711,6 +718,8 @@ View the full interactive experiment tracking:
 | 🖼️ **Scientific Poster** | [View Poster](#) | Academic poster summarizing results |
 | 🎥 **Presentation Video** | [Watch Video](#) | 3-8 minute project walkthrough |
 | 📈 **W&B Dashboard** | [View Dashboard](https://wandb.ai/niconv13-florida-atlantic-university/MatID-Waste-Classification) | Interactive experiment tracking |
+
+</div>
 
 </details>
 
@@ -722,7 +731,17 @@ View the full interactive experiment tracking:
 
 <br>
 
-**Nicolas** · Florida Atlantic University · MatID Final Project
+### 👤 About the Author
+
+**Nicolas** · Data Science & Analytics · Florida Atlantic University
+
+[![GitHub](https://img.shields.io/badge/GitHub-niconv13-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/niconv13)
+
+<br>
+
+---
+
+*MatID Final Project · Materials Identification · Dr. Hahn*
 
 Made with 🧠 for smarter waste management
 
