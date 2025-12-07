@@ -1,4 +1,4 @@
-div align="center">
+<div align="center">
   <img src="assets/matidlogo.png" width="300" alt="MatID Logo">
   
   <h1>The AI Revolution in Waste Management</h1>
