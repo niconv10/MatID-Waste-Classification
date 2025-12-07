@@ -54,20 +54,22 @@ To understand the waste problem, we must look at the source. Florida is defined 
 
 ---
 ### 🚛 From Source to Facility: The Convergence
-Regardless of the source—whether it's a landscaping crew clearing a golf course or a demolition team clearing a lot—these materials share the same destination: **Material Recovery Facilities (MRFs).**
+Regardless of the source, these materials share the same destination: **Material Recovery Facilities (MRFs).** Hundreds of haulers transport this debris to MRFs daily, creating a massive, mixed stream of incoming waste.
 
-Hundreds of haulers transport this debris to MRFs daily. By the time these trucks arrive at the facility gate, the distinct sources often become a mixed, chaotic stream inside the dumpster.
+### 🏭 The MRF Workflow: A Typical Process
+Understanding how these facilities operate is key to seeing the problem.
 
-### 🚜 The Industrial Challenge: The "Black Box" Truck
-This creates a critical blind spot. The facility charges by material type (e.g., Concrete is cheaper to dump than Trash), but **they can't see inside the truck.**
+<div align="center">
+  <img src="assets/mrf_sample.png" width="600" alt="Material Recovery Facility (MRF) Operation">
+  <br>
+  <i>A typical MRF operation where trucks dump mixed loads for processing.</i>
+</div>
 
-Currently, they rely solely on the **driver's declaration**. When this declaration doesn't match reality (e.g., hiding organic waste inside a concrete load), the plant loses money.
+The standard process for a truck driver is simple but flawed:
 
-#### The $2.1 Billion Financial Bleed
-This lack of visual verification costs U.S. recycling plants an estimated **$2.1 Billion every year**.
+1.  **Truck Arrival & Weigh-in:** The truck arrives at the scale house, gets weighed, and the driver declares the material type to collect a ticket.
+2.  **Dumping & Departure:** The truck proceeds to the tipping floor, dumps its material (into piles for either C&D or Yard Waste based on the declaration), and leaves.
 
-```mermaid
-pie title Annual Financial Losses in U.S. MRFs ($2.1B Total)
-    "Fraud & Misclassification ($1.2B)" : 1200
-    "Lack of Visual Proof ($630M)" : 630
-    "Contaminated Loads ($210M)" : 210
+> **The Critical Flaw:** At no point is there a reliable visual verification to ensure the dumped material matches the driver's declaration.
+
+---
