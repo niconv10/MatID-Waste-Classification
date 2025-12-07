@@ -53,3 +53,21 @@ To understand the waste problem, we must look at the source. Florida is defined 
 > **The Result:** Landscape maintenance and rapid city development generate millions of tons of waste per year. **This is where the problem begins.**
 
 ---
+### 🚛 From Source to Facility: The Convergence
+Regardless of the source—whether it's a landscaping crew clearing a golf course or a demolition team clearing a lot—these materials share the same destination: **Material Recovery Facilities (MRFs).**
+
+Hundreds of haulers transport this debris to MRFs daily. By the time these trucks arrive at the facility gate, the distinct sources often become a mixed, chaotic stream inside the dumpster.
+
+### 🚜 The Industrial Challenge: The "Black Box" Truck
+This creates a critical blind spot. The facility charges by material type (e.g., Concrete is cheaper to dump than Trash), but **they can't see inside the truck.**
+
+Currently, they rely solely on the **driver's declaration**. When this declaration doesn't match reality (e.g., hiding organic waste inside a concrete load), the plant loses money.
+
+#### The $2.1 Billion Financial Bleed
+This lack of visual verification costs U.S. recycling plants an estimated **$2.1 Billion every year**.
+
+```mermaid
+pie title Annual Financial Losses in U.S. MRFs ($2.1B Total)
+    "Fraud & Misclassification ($1.2B)" : 1200
+    "Lack of Visual Proof ($630M)" : 630
+    "Contaminated Loads ($210M)" : 210
