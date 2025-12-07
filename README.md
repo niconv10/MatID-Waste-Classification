@@ -248,7 +248,184 @@ This eliminates billing disputes instantly and gives plant managers clean, trust
 
 <br>
 
-> *Details about the AlexNet implementation and modifications for waste classification.*
+> ## 🧠 Technical Approach
+
+### Modified AlexNet Architecture
+
+We leverage **transfer learning** with a pre-trained AlexNet model (trained on ImageNet) and adapt it for binary waste classification. The key modification is replacing the final fully connected layer to output 2 classes instead of 1,000.
+
+<br>
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        ALEXNET ARCHITECTURE                                 │
+│                     (Modified for Waste Classification)                     │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   INPUT                                                                     │
+│   224 × 224 × 3                                                             │
+│        │                                                                    │
+│        ▼                                                                    │
+│   ┌─────────────────────────────────────────────────────────────────────┐   │
+│   │                    FEATURE EXTRACTION                               │   │
+│   ├─────────────────────────────────────────────────────────────────────┤   │
+│   │  Conv1 → ReLU → MaxPool   (96 filters, 11×11, stride 4)            │   │
+│   │  Conv2 → ReLU → MaxPool   (256 filters, 5×5)                       │   │
+│   │  Conv3 → ReLU             (384 filters, 3×3)                       │   │
+│   │  Conv4 → ReLU             (384 filters, 3×3)                       │   │
+│   │  Conv5 → ReLU → MaxPool   (256 filters, 3×3)                       │   │
+│   └─────────────────────────────────────────────────────────────────────┘   │
+│        │                                                                    │
+│        ▼                                                                    │
+│   ┌─────────────────────────────────────────────────────────────────────┐   │
+│   │                       CLASSIFIER                                    │   │
+│   ├─────────────────────────────────────────────────────────────────────┤   │
+│   │  Flatten → Dropout(0.5)                                            │   │
+│   │  FC1: 9216 → 4096 → ReLU → Dropout(0.5)                            │   │
+│   │  FC2: 4096 → 4096 → ReLU → Dropout(0.5)                            │   │
+│   │  FC3: 4096 → 2  ← MODIFIED (originally 1000 for ImageNet)          │   │
+│   └─────────────────────────────────────────────────────────────────────┘   │
+│        │                                                                    │
+│        ▼                                                                    │
+│   OUTPUT                                                                    │
+│   [C&D, Yardwaste]                                                          │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+<br>
+
+### Dataset & Preprocessing
+
+Our dataset consists of real-world images from Material Recovery Facilities, split into two classes:
+
+| Class | Description | Train | Validation |
+|-------|-------------|:-----:|:----------:|
+| **C&D** | Construction & Demolition debris | *XXX* | *XXX* |
+| **Yardwaste** | Organic landscape materials | *XXX* | *XXX* |
+
+<br>
+
+**Preprocessing Pipeline:**
+
+All images undergo the following transformations before being fed into the model:
+
+```python
+# Standard preprocessing (no augmentation)
+transforms = [
+    Resize(224, 224),                                    # Resize to AlexNet input
+    Normalize(mean=[0.485, 0.456, 0.406],               # ImageNet normalization
+              std=[0.229, 0.224, 0.225]),
+    ToTensor()
+]
+```
+
+<br>
+
+**Data Augmentation** (applied in select experiments):
+
+```python
+# Augmentation transforms
+augmentations = [
+    HorizontalFlip(p=0.5),
+    VerticalFlip(p=0.2),
+    RandomRotate90(p=0.5),
+    RandomBrightnessContrast(brightness=0.2, contrast=0.2, p=0.3),
+    ShiftScaleRotate(shift=0.1, scale=0.1, rotate=15°, p=0.3)
+]
+```
+
+<br>
+
+### Training Configuration
+
+<div align="center">
+
+| Parameter | Value |
+|-----------|-------|
+| **Framework** | PyTorch |
+| **Pre-trained Weights** | ImageNet1K_V1 |
+| **Loss Function** | CrossEntropyLoss |
+| **Primary Optimizer** | Adam |
+| **Epochs** | 15 |
+| **Hardware** | Google Colab T4 GPU |
+| **Tracking** | Weights & Biases |
+
+</div>
+
+<br>
+
+### Experimental Variables
+
+To understand model behavior, we systematically varied the following hyperparameters:
+
+| Variable | Values Tested |
+|----------|---------------|
+| **Batch Size** | 16, 64 |
+| **Learning Rate** | 0.0001, 0.001 |
+| **Optimizer** | Adam, SGD (momentum=0.9) |
+| **Data Augmentation** | On, Off |
+| **Architecture** | AlexNet, VGG16, ResNet18 |
+
+<br>
+
+### Alternative Architectures
+
+In addition to AlexNet, we compared performance against two other CNN architectures:
+
+<br>
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+**AlexNet**
+
+*8 layers · 61M params*
+
+The baseline. Fast training, lightweight architecture with 5 convolutional layers.
+
+</td>
+<td width="33%" align="center">
+
+**VGG16**
+
+*16 layers · 138M params*
+
+Deeper network with uniform 3×3 convolutions. More parameters, slower training.
+
+</td>
+<td width="33%" align="center">
+
+**ResNet18**
+
+*18 layers · 11M params*
+
+Skip connections enable better gradient flow. Efficient despite depth.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+All architectures were modified identically—replacing only the final classification layer to output 2 classes:
+
+```python
+# AlexNet & VGG16
+model.classifier[6] = nn.Linear(4096, 2)
+
+# ResNet18
+model.fc = nn.Linear(512, 2)
+```
+
+<br>
+
+---
 
 <br>
 
