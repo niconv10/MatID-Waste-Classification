@@ -26,14 +26,30 @@ Use these links to jump to specific sections of the project:
 
 ---
 
-# 🌴 1. Problem & Motivation
+## 🌴 1. Problem & Motivation
 
 ### The Florida Context: Beauty & Boom
-To understand the waste problem, we must look at where it comes from. Florida is defined by two massive forces:
+To understand the waste problem, we must look at the source. Florida is defined by two massive forces:
 
-1.  **The Standard of Beauty (Maintenance):** In Florida, keeping the state green and clean is a daily obsession. Manicured golf courses, neighborhoods, and highways generate millions of tons of **Yard Waste** annually.
-2.  **The Construction Explosion (Development):** Florida state is defined by growth. Every new condo, outlet mall, and high-rise creates massive amounts of **Construction & Demolition (C&D)** debris.
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="assets/florida_beauty.jpg" width="350" alt="Florida Landscaping">
+        <br>
+        <b>The Standard of Beauty</b><br>
+        <i>Millions of tons of Yard Waste from daily maintenance.</i>
+      </td>
+      <td align="center">
+        <img src="assets/florida_construction.jpg" width="350" alt="Construction Boom">
+        <br>
+        <b>The Construction Explosion</b><br>
+        <i>Massive C&D debris from rapid urban development.</i>
+      </td>
+    </tr>
+  </table>
+</div>
 
-> **The Result:** Landscape maintenance and rapid city development generate millions of tons of waste per year. **This is where the problem begins.**
+> **The Result:** These two massive streams end up mixed in the same dump trucks. **This is where the problem begins.**
 
 ---
