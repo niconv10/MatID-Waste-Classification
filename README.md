@@ -26,25 +26,27 @@ Use these links to jump to specific sections of the project:
 
 ---
 
-## 🌴 1. Problem & Motivation: The Florida Context
-**"Beauty vs. The Boom"**
+## 🚜 1. Problem & Motivation: The Waste Industry Challenge
+**Handling Massive, Mixed Waste Streams**
 
-In Florida, we live in a dichotomy. We see perfectly manicured golf courses and neighborhoods daily (generating massive **Yard Waste**), and simultaneously, we see a skyline filled with construction cranes (generating **C&D Debris**).
+The waste management industry faces a critical bottleneck at the facility gate. Two distinct, high-volume waste streams are constantly entering facilities, often mixed in the same truck:
 
-These two massive streams often end up mixed in the same dump trucks. Currently, waste facilities struggle to distinguish them efficiently at the entry gate. This leads to critical operational failures:
+1.  **Construction & Demolition (C&D):** Concrete, lumber, and debris from rapid urban development and infrastructure projects.
+2.  **Yard Waste (Vegetative):** Organic material from constant landscaping maintenance.
 
-* **💸 Revenue Loss:** Facilities charge incorrect tipping fees because they can't accurately estimate the ratio of materials.
-* **⚠️ Contamination:** Organic waste hides inside recyclable concrete loads, ruining the recycling batch.
-* **📉 Lack of Traceability:** There is no visual proof for clients to justify billing adjustments.
+**The Operational Gap:**
+Currently, identifying the ratio of these materials relies on human estimation. This manual process is subjective, slow, and prone to error, leading to:
 
-**MatID** solves this by using Computer Vision (AlexNet) to automatically classify waste truck loads at the gate, providing **visual proof and automated billing**.
+* **📉 Revenue Leakage:** Inaccurate tipping fees due to poor volume estimation.
+* **⚠️ Cross-Contamination:** Organic waste hiding in concrete loads renders recyclable materials useless.
+* **🚫 Lack of Traceability:** No digital record or visual proof to verify loads with clients.
 
-### 📸 The Dataset: Real-World Complexity
-To train our model, we collected a dataset of real-world images from local facilities. The challenge lies in the visual similarity between "dirty wood" (C&D) and "branches" (Yard Waste).
+**MatID** addresses this operational inefficiency by deploying automated Computer Vision at the weigh station to classify incoming loads with precision.
+
+### 📸 The Dataset: Distinguishing Similar Textures
+Our model was trained on real-world samples to solve the visual ambiguity between dirty construction wood and organic branches.
 
 | Class A: Construction (C&D) | Class B: Yard Waste |
 | :---: | :---: |
 | <img src="assets/cnd_sample.png" width="400" alt="Construction Waste"> | <img src="assets/yard_sample.jpeg" width="400" alt="Yard Waste"> |
-| *Concrete, bricks, rebar, and lumber.* | *Vegetation, branches, grass, and stumps.* |
-
----
+| *High-density debris: Concrete, Rebar, Lumber.* | *Organic material: Branches, Grass, Stumps.* |
