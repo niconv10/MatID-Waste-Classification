@@ -709,7 +709,7 @@ View the full interactive experiment tracking:
 | Deliverable | Link | Description |
 |-------------|:----:|-------------|
 |  **Google Slides** | [View Presentation](#) | Problem overview + AlexNet explanation |
-|  **Colab Notebook** | [Open in Colab](#) | Full implementation + all 7 experiments |
+|  **Colab Notebook** | [Open in Colab](https://colab.research.google.com/drive/13Qq0HmCp71YkqO0uD_e4UPU0d_J1AXIQ?usp=sharing) | Full implementation + all 7 experiments |
 |  **Scientific Poster** | [View Poster](#) | Academic poster summarizing results |
 |  **Presentation Video** | [Watch Video](#) | 3-8 minute project walkthrough |
 |  **W&B Dashboard** | [View Dashboard](https://wandb.ai/niconv13-florida-atlantic-university/MatID-Waste-Classification) | Interactive experiment tracking |
