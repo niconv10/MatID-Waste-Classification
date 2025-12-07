@@ -80,8 +80,8 @@ The industry loses an estimated **$2.1 Billion annually** due to three main fact
 
 1.  **Fraud & Misclassification ($1.2B):** This happens both inside the truck and the **Scale House**. Attendants or managers can manually modify material selections to declare cheaper rates, whether due to deliberate manipulation (collusion) or simple **human error**.
 2.  **Lack of Visual Proof ($630M):** When clients dispute a bill, the facility has no photo evidence to prove what was actually dumped, forcing them to issue refunds.
-3.  **Contaminated Loads ($210M):** Organic waste hiding in construction loads clogs shredders and ruins recyclable batches, driving up operating costs.
-
+3.  **Contaminated Loads ($210M):** When a load is not properly identified, it triggers a chain reaction of costs. Contaminated material often requires **reprocessing** (sorting the same pile twice), drastically increasing **operational costs**. Furthermore, wrong materials (like steel hiding in wood) cause severe **equipment damage**, leading to expensive repairs and downtime.
+   
 #### The $2.1 Billion Financial Bleed Breakdown
 This lack of visual verification costs U.S. recycling plants an estimated **$2.1 Billion every year**.
 
