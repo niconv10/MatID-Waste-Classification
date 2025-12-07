@@ -99,6 +99,8 @@ pie title "Financial losses in U.S MRFs ($2.1B Total)"
 
 ---
 
+---
+
 ## 💡 2. The Solution: MatID App
 **Accuracy, Speed, and Trust at the Tipping Floor**
 
@@ -115,14 +117,14 @@ We optimized the dumping cycle to ensure speed and compliance.
       <td align="center" width="300">
         <img src="assets/truck_scale.png" width="250" alt="Step 1">
         <br>
-        <b>Step 1: Arrival & Weigh-in</b><br>
-        <i>Truck arrival and weights-in.</i>
+        <b>Step 1: Truck Arrival & Weigh-in</b><br>
+        <i>Truck arrives at the scale house and weights in.</i>
       </td>
       <td align="center" width="300">
-        <img src="assets/truc_dump.png" width="250" alt="Step 2">
+        <img src="assets/truck_dump.png" width="250" alt="Step 2">
         <br>
-        <b>Step 2: Dumping</b><br>
-        <i>Dumping Material.</i>
+        <b>Step 2: Dumping Material</b><br>
+        <i>Truck dumps material onto the designated area.</i>
       </td>
     </tr>
     <tr>
@@ -144,7 +146,4 @@ We optimized the dumping cycle to ensure speed and compliance.
 
 ### 🛡️ Key Operational Benefits
 * **🚀 Increased Turnaround:** By removing manual inspection delays, the entire process is streamlined to under 5 minutes.
-* **📸 Irrefutable Visual Proof:** Every ticket includes a **timestamped photo** to prevent disputes.
-* **🚫 Fraud Prevention:** The AI eliminates human error and intentional misclassification at the point of service.
-
-> **Technical Note:** The app runs a quantized version of our **AlexNet** model directly on edge devices (iPad), requiring
+* **📸 Irref
