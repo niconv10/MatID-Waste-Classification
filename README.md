@@ -34,6 +34,11 @@
 
 ## 🌴 The Problem
 
+<details>
+<summary><b>Click to expand</b></summary>
+
+<br>
+
 ### Florida: Where Beauty Meets the Boom
 
 To understand the waste crisis, follow the source. Florida operates at the intersection of two massive forces:
@@ -159,11 +164,18 @@ This verification gap creates a massive financial bleed across the U.S. waste in
 
 </details>
 
+</details>
+
 <br>
 
 ---
 
 ## 💡 The Solution
+
+<details>
+<summary><b>Click to expand</b></summary>
+
+<br>
 
 <div align="center">
 
@@ -238,11 +250,18 @@ This eliminates billing disputes instantly and gives plant managers clean, trust
 | 📸 | **Irrefutable Visual Proof** | Every ticket includes timestamped photo |
 | 🚫 | **Fraud Prevention** | AI eliminates human error and misclassification |
 
+</details>
+
 <br>
 
 ---
 
 ## 🧠 Technical Approach
+
+<details>
+<summary><b>Click to expand</b></summary>
+
+<br>
 
 ### Modified AlexNet Architecture
 
@@ -329,7 +348,7 @@ augmentations = [
     VerticalFlip(p=0.2),
     RandomRotate90(p=0.5),
     RandomBrightnessContrast(brightness=0.2, contrast=0.2, p=0.3),
-    ShiftScaleRotate(shift=0.1, scale=0.1, rotate=15°, p=0.3)
+    ShiftScaleRotate(shift=0.1, scale=0.1, rotate=15, p=0.3)
 ]
 ```
 
@@ -417,9 +436,7 @@ model.classifier[6] = nn.Linear(4096, 2)
 model.fc = nn.Linear(512, 2)
 ```
 
-<br>
-
----
+</details>
 
 <br>
 
@@ -427,11 +444,14 @@ model.fc = nn.Linear(512, 2)
 
 ## 🧪 Experiments
 
-### Methodology
+<details>
+<summary><b>Click to expand</b></summary>
 
 <br>
 
 > *Details about experimental setup, hyperparameters, and training procedures.*
+
+</details>
 
 <br>
 
@@ -439,11 +459,14 @@ model.fc = nn.Linear(512, 2)
 
 ## 📊 Results
 
-### Visualizations
+<details>
+<summary><b>Click to expand</b></summary>
 
 <br>
 
 > *Training curves, confusion matrices, and performance metrics.*
+
+</details>
 
 <br>
 
@@ -451,11 +474,14 @@ model.fc = nn.Linear(512, 2)
 
 ## 📂 Deliverables
 
-### Project Resources
+<details>
+<summary><b>Click to expand</b></summary>
 
 <br>
 
 > *Links to notebooks, models, datasets, and documentation.*
+
+</details>
 
 <br>
 
@@ -470,4 +496,3 @@ Made with 🧠 for smarter waste management
 <br>
 
 </div>
----
