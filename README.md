@@ -32,7 +32,7 @@
 
 <br>
 
-## 🌴 The Problem
+##  1. The Problem
 
 <details open>
 <summary><b>Click to expand</b></summary>
@@ -170,7 +170,7 @@ This verification gap creates a massive financial bleed across the U.S. waste in
 
 ---
 
-## 💡 The Solution
+## 2. The Solution
 
 <details open>
 <summary><b>Click to expand</b></summary>
@@ -256,7 +256,7 @@ This eliminates billing disputes instantly and gives plant managers clean, trust
 
 ---
 
-## 🧠 Technical Approach
+## 3. Technical Approach
 
 <details>
 <summary><b>Click to expand</b></summary>
@@ -444,7 +444,7 @@ model.fc = nn.Linear(512, 2)
 
 ---
 
-## 🧪 Experiments
+## 4. Experiments
 
 <details>
 <summary><b>Click to expand</b></summary>
@@ -591,7 +591,7 @@ Testing ResNet18 with skip connections.
 
 ---
 
-## 📊 Results
+## 5. Results
 
 <details open>
 <summary><b>Click to expand</b></summary>
@@ -697,7 +697,7 @@ View the full interactive experiment tracking:
 
 ---
 
-## 📂 Deliverables
+## 6. Deliverables
 
 <details open>
 <summary><b>Click to expand</b></summary>
