@@ -27,12 +27,12 @@
 <br>
 
 ---
-[![Problem](https://img.shields.io/badge/Problem-222222?style=flat-square)](#-the-problem)
-[![Solution](https://img.shields.io/badge/Solution-222222?style=flat-square)](#-the-solution)
-[![Technical](https://img.shields.io/badge/Technical-222222?style=flat-square)](#-technical-approach)
-[![Experiments](https://img.shields.io/badge/Experiments-222222?style=flat-square)](#-experiments)
-[![Results](https://img.shields.io/badge/Results-222222?style=flat-square)](#-results)
-[![Deliverables](https://img.shields.io/badge/Deliverables-222222?style=flat-square)](#-deliverables)
+[![Problem](https://img.shields.io/badge/Problem-000000?style=for-the-badge)](#-the-problem)
+[![Solution](https://img.shields.io/badge/Solution-000000?style=for-the-badge)](#-the-solution)
+[![Technical](https://img.shields.io/badge/Technical-000000?style=for-the-badge)](#-technical-approach)
+[![Experiments](https://img.shields.io/badge/Experiments-000000?style=for-the-badge)](#-experiments)
+[![Results](https://img.shields.io/badge/Results-000000?style=for-the-badge)](#-results)
+[![Deliverables](https://img.shields.io/badge/Deliverables-000000?style=for-the-badge)](#-deliverables)
 
 ---
 
