@@ -139,5 +139,4 @@ We optimized the dumping cycle to ensure speed and compliance.
 * **🚀 Increased Turnaround:** By removing manual inspection delays, the entire process is streamlined to under 5 minutes.
 * **📸 Irrefutable Visual Proof:** Every ticket includes a **timestamped photo** to prevent disputes.
 * **🚫 Fraud Prevention:** The AI eliminates human error and intentional misclassification at the point of service.
-
 ---
