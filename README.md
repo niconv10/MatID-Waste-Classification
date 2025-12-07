@@ -51,7 +51,7 @@ To understand the waste crisis, follow the source. Florida operates at the inter
 
 <div align="center">
 
-**🌿 The Standard of Beauty**
+** The Standard of Beauty**
 
 <img src="assets/maintenance_sample.png" width="100%" alt="Florida Landscaping">
 
@@ -64,7 +64,7 @@ To understand the waste crisis, follow the source. Florida operates at the inter
 
 <div align="center">
 
-**🏗️ The Construction Explosion**
+** The Construction Explosion**
 
 <img src="assets/development_sample.png" width="100%" alt="Construction Boom">
 
@@ -78,13 +78,13 @@ To understand the waste crisis, follow the source. Florida operates at the inter
 
 <br>
 
-> 💡 **The Result:** Landscape maintenance and rapid city development generate millions of tons of waste per year. This is where the problem begins.
+>  **The Result:** Landscape maintenance and rapid city development generate millions of tons of waste per year. This is where the problem begins.
 
 <br>
 
 ---
 
-### 🚛 The Convergence Point
+###  The Convergence Point
 
 Regardless of origin, all materials share the same destination: **Material Recovery Facilities (MRFs).** Thousands of haulers transport debris daily, creating a massive, mixed stream of incoming waste.
 
@@ -112,13 +112,13 @@ Regardless of origin, all materials share the same destination: **Material Recov
 
 <br>
 
-> ⚠️ **The Critical Flaw:** At no point is there reliable visual verification to ensure dumped material matches the driver's declaration.
+>  **The Critical Flaw:** At no point is there reliable visual verification to ensure dumped material matches the driver's declaration.
 
 <br>
 
 ---
 
-### 💸 The Cost: $2.1 Billion Lost Annually
+###  The Cost: $2.1 Billion Lost Annually
 
 This verification gap creates a massive financial bleed across the U.S. waste industry.
 
@@ -246,9 +246,9 @@ This eliminates billing disputes instantly and gives plant managers clean, trust
 
 | | Benefit | Impact |
 |:-:|---------|--------|
-| 🚀 | **Increased Turnaround** | Entire process streamlined to under 5 minutes |
-| 📸 | **Irrefutable Visual Proof** | Every ticket includes timestamped photo |
-| 🚫 | **Fraud Prevention** | AI eliminates human error and misclassification |
+| | **Increased Turnaround** | Entire process streamlined to under 5 minutes |
+| | **Irrefutable Visual Proof** | Every ticket includes timestamped photo |
+| | **Fraud Prevention** | AI eliminates human error and misclassification |
 
 </details>
 
@@ -529,7 +529,7 @@ Testing a 10× higher learning rate to understand stability limits.
 <img src="assets/results/4_LR_0.001_plots.png" width="100%" alt="Higher Learning Rate Results">
 
 **Key Observations:**
-- ⚠️ **Unstable training** — high variance in both loss and accuracy
+-  **Unstable training** — high variance in both loss and accuracy
 - Peak accuracy: **99.47%** (epoch 5 and 9)
 - Collapsed to **54.83%** by final epoch
 - **Not recommended** — classic example of learning rate being too aggressive
@@ -578,7 +578,7 @@ Testing ResNet18 with skip connections.
 <img src="assets/results/7_ResNet18_plots.png" width="100%" alt="ResNet18 Results">
 
 **Key Observations:**
-- 🏆 **100% validation accuracy from epoch 1** — best performer
+-  **100% validation accuracy from epoch 1** — best performer
 - Fastest convergence of all experiments
 - Skip connections enable efficient gradient flow
 - Fewest parameters (11M) among the three architectures
@@ -630,7 +630,7 @@ All three architectures achieved 100% accuracy, but with different characteristi
 |--------------|:----------:|:--------------:|----------------|
 | **AlexNet** | 61M | 2 | Good baseline |
 | **VGG16** | 138M | 2 | Overkill for this task |
-| **ResNet18** | 11M | **1** | 🏆 Best for deployment |
+| **ResNet18** | 11M | **1** |  Best for deployment |
 
 **ResNet18** is the recommended choice—fewest parameters, fastest convergence, and perfect accuracy from the first epoch.
 
@@ -669,7 +669,7 @@ Actual  C&D   430        0
 
 <br>
 
-### 🏆 Production Recommendation
+###  Production Recommendation
 
 Based on our experiments, the optimal configuration for deployment is:
 
@@ -708,11 +708,11 @@ View the full interactive experiment tracking:
 
 | Deliverable | Link | Description |
 |-------------|:----:|-------------|
-| 📊 **Google Slides** | [View Presentation](#) | Problem overview + AlexNet explanation |
-| 💻 **Colab Notebook** | [Open in Colab](#) | Full implementation + all 7 experiments |
-| 🖼️ **Scientific Poster** | [View Poster](#) | Academic poster summarizing results |
-| 🎥 **Presentation Video** | [Watch Video](#) | 3-8 minute project walkthrough |
-| 📈 **W&B Dashboard** | [View Dashboard](https://wandb.ai/niconv13-florida-atlantic-university/MatID-Waste-Classification) | Interactive experiment tracking |
+|  **Google Slides** | [View Presentation](#) | Problem overview + AlexNet explanation |
+|  **Colab Notebook** | [Open in Colab](#) | Full implementation + all 7 experiments |
+|  **Scientific Poster** | [View Poster](#) | Academic poster summarizing results |
+|  **Presentation Video** | [Watch Video](#) | 3-8 minute project walkthrough |
+|  **W&B Dashboard** | [View Dashboard](https://wandb.ai/niconv13-florida-atlantic-university/MatID-Waste-Classification) | Interactive experiment tracking |
 
 </div>
 
