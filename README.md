@@ -27,9 +27,7 @@
 <br>
 
 ---
-markdown| [Problem](#-the-problem) | [Solution](#-the-solution) | [Technical](#-technical-approach) | [Experiments](#-experiments) | [Results](#-results) | [Deliverables](#-deliverables) |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-
+[Problem](#-the-problem)  ·  [Solution](#-the-solution)  ·  [Technical Approach](#-technical-approach)  ·  [Experiments](#-experiments)  ·  [Results](#-results)  ·  [Deliverables](#-deliverables)
 ---
 
 </div>
