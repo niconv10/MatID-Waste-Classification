@@ -78,11 +78,11 @@ Because facilities operate blindly based on manual input, they are essentially b
 
 The industry loses an estimated **$2.1 Billion annually** due to three main factors:
 
-1.  **Fraud & Misclassification ($1.2B):** This is not just driver deceit. It also happens inside the **Scale House**. Attendants or managers can manually modify material selections to declare cheaper rates (e.g., changing "Mixed Trash" to "Clean Concrete"), whether due to deliberate manipulation (collusion) or simple **human error**.
+1.  **Fraud & Misclassification ($1.2B):** This happens both inside the truck and the **Scale House**. Attendants or managers can manually modify material selections to declare cheaper rates (e.g., changing "Mixed Trash" to "Clean Concrete"), whether due to deliberate manipulation (collusion) or simple **human error**.
 2.  **Lack of Visual Proof ($630M):** When clients dispute a bill, the facility has no photo evidence to prove what was actually dumped, forcing them to issue refunds.
 3.  **Contaminated Loads ($210M):** Organic waste hiding in construction loads clogs shredders and ruins recyclable batches, driving up operating costs.
 
-#### The $2.1 Billion Financial Bleed
+#### The $2.1 Billion Financial Bleed Breakdown
 This lack of visual verification costs U.S. recycling plants an estimated **$2.1 Billion every year**.
 
 ```mermaid
@@ -90,4 +90,3 @@ pie title Annual Financial Losses in U.S. MRFs ($2.1B Total)
     "Fraud & Misclassification ($1.2B)" : 1200
     "Lack of Visual Proof ($630M)" : 630
     "Contaminated Loads ($210M)" : 210
----
