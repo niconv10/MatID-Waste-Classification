@@ -73,3 +73,19 @@ The standard process:
 > **The Critical Flaw:** At no point is there a reliable visual verification to ensure the dumped material matches the driver's declaration.
 
 ---
+---
+
+### 💸 The Consequence: A $2.1 Billion Annual Loss
+Because facilities operate blindly based on the driver's word, they are essentially burning money. This lack of verification creates a massive financial bleed across the U.S. waste industry.
+
+The industry loses an estimated **$2.1 Billion annually** due to three main factors:
+
+1.  **Fraud & Misclassification ($1.2B):** Drivers declare cheaper materials (like "Clean Concrete") but dump expensive mixed trash. Without eyes on the load, the plant undercharges.
+2.  **Lack of Visual Proof ($630M):** When clients dispute a bill, the facility has no photo evidence to prove what was actually dumped, forcing them to issue refunds.
+3.  **Contaminated Loads ($210M):** Organic waste hiding in construction loads clogs shredders and ruins recyclable batches, driving up operating costs.
+
+```mermaid
+pie title The $2.1 Billion Industry Loss Breakdown
+    "Fraud & Misclassification ($1.2B)" : 1200
+    "Lack of Visual Proof ($630M)" : 630
+    "Contaminated Loads / Ops Costs ($210M)" : 210
