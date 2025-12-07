@@ -90,4 +90,3 @@ pie title "Financial losses in U.S MRFs ($2.1B Total)"
     "Fraud & Misclassification ($1.2B)" : 1200
     "Lack of Visual Proof ($630M)" : 630
     "Contaminated Loads ($210M)" : 210
----
