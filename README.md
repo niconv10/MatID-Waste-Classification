@@ -82,12 +82,12 @@ The industry loses an estimated **$2.1 Billion annually** due to three main fact
 2.  **Lack of Visual Proof ($630M):** When clients dispute a bill, the facility has no photo evidence to prove what was actually dumped, forcing them to issue refunds.
 3.  **Contaminated Loads ($210M):** Organic waste hiding in construction loads clogs shredders and ruins recyclable batches, driving up operating costs.
 
-<div align="center">
-  <img src="assets/financial_loss_chart.png" width="700" alt="$2.1 Billion Financial Loss Breakdown">
-  <br>
-  <i>Figure: Breakdown of losses driven by scale house manipulation, driver fraud, and lack of visual proof.</i>
-</div>
-
+```mermaid
+pie title Annual Financial Losses in U.S. MRFs ($2.1B Total)
+    "Fraud & Misclassification ($1.2B)" : 1200
+    "Lack of Visual Proof ($630M)" : 630
+    "Contaminated Loads / Ops Costs ($210M)" : 210
+    
 > **The Solution:** MatID stops this bleeding by eliminating manual entry. We provide **automated classification** that cannot be manipulated by drivers or scale attendants.
 
 ---
