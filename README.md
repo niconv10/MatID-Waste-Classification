@@ -736,12 +736,12 @@ View the full interactive experiment tracking:
 **Nicolas Navarro** · Data Science & Analytics · Florida Atlantic University
 
 [![GitHub](https://img.shields.io/badge/GitHub-niconv13-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/niconv13)
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/nicolas-navarro-36971a295)
 <br>
 
 ---
 
-*MatID Final Project · Materials Identification · Dr. Hahn*
+*MatID Final Project · MAP 2192 · Dr. Hahn · Fall 2025*
 
 The AI Revolution in Waste Management
 
