@@ -1,143 +1,301 @@
 <div align="center">
-  <img src="assets/matidlogo.png" width="300" alt="MatID Logo">
-  
-  <h1>The AI Revolution in Waste Management</h1>
-  <h3>Immediate, accurate material identification with full traceability.</h3>
 
-  <p>
-    <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python" alt="Python">
-    <img src="https://img.shields.io/badge/PyTorch-Deep_Learning-red?style=for-the-badge&logo=pytorch" alt="PyTorch">
-    <img src="https://img.shields.io/badge/Google_Colab-T4_GPU-orange?style=for-the-badge&logo=googlecolab" alt="Google Colab">
-    <img src="https://img.shields.io/badge/Weights_&_Biases-Tracking-gold?style=for-the-badge&logo=weightsandbiases" alt="WandB">
-    <img src="https://img.shields.io/badge/Status-Prototype_Complete-success?style=for-the-badge" alt="Status">
-  </p>
+<!-- Hero Section with Clean Logo -->
+<img src="assets/matidlogo.png" width="280" alt="MatID Logo">
+
+<br><br>
+
+# MatID
+
+### The AI Revolution in Waste Management
+
+*Immediate, accurate material identification with full traceability.*
+
+<br>
+
+<!-- Modernized Badge Row - Monochrome Theme -->
+[![Python](https://img.shields.io/badge/Python_3.10-000000?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org)
+[![Colab](https://img.shields.io/badge/Google_Colab-000000?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com)
+[![W&B](https://img.shields.io/badge/Weights_&_Biases-000000?style=flat-square&logo=weightsandbiases&logoColor=white)](https://wandb.ai)
+[![Status](https://img.shields.io/badge/Prototype-Complete-00C853?style=flat-square)](/)
+
+<br>
+
+---
+
+**[The Problem](#-the-problem)** · **[Solution](#-the-solution)** · **[Technical Approach](#-technical-approach)** · **[Experiments](#-experiments)** · **[Results](#-results)** · **[Deliverables](#-deliverables)**
+
+---
+
 </div>
 
 <br>
 
-## 📑 Navigation
-Use these links to jump to specific sections of the project:
+## 🌴 The Problem
 
-1. [🔴 **The Problem & Motivation**](#-1-problem--motivation-the-florida-context)
-2. [🧠 **Technical Approach (AlexNet)**](#-2-technical-approach-modified-alexnet)
-3. [🧪 **Experiments & Methodology**](#-3-experimental-methodology)
-4. [📊 **Results & Visualizations**](#-4-results--visualizations)
-5. [📂 **Project Deliverables**](#-5-project-deliverables-resources)
+### Florida: Where Beauty Meets the Boom
 
----
+To understand the waste crisis, follow the source. Florida operates at the intersection of two massive forces:
 
-## 🌴 1. Problem & Motivation
+<br>
 
-### The Florida Context: Beauty & Boom
-To understand the waste problem, we must look at the source. Florida is defined by two massive forces:
+<table>
+<tr>
+<td width="50%">
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="assets/maintenance_sample.png" width="400" alt="Florida Landscaping">
-        <br>
-        <b>The Standard of Beauty</b><br>
-        <i>Millions of tons of Yard Waste from daily maintenance.</i>
-      </td>
-      <td align="center">
-        <img src="assets/development_sample.png" width="400" alt="Construction Boom">
-        <br>
-        <b>The Construction Explosion</b><br>
-        <i>Massive C&D debris from rapid urban development.</i>
-      </td>
-    </tr>
-  </table>
+
+**🌿 The Standard of Beauty**
+
+<img src="assets/maintenance_sample.png" width="100%" alt="Florida Landscaping">
+
+*Millions of tons of Yard Waste from daily maintenance.*
+
 </div>
 
-> **The Result:** Landscape maintenance and rapid city development generate millions of tons of waste per year. **This is where the problem begins.**
-
----
-### 🚛 From Source to Facility: The Convergence
-Regardless of the source, these materials share the same destination: **Material Recovery Facilities (MRFs).** Thousands of haulers transport this debris to MRFs daily, creating a massive, mixed stream of incoming waste.
-
-### 🏭 The MRF Workflow: A Typical Process
-Understanding how these facilities operate is key to seeing the problem.
+</td>
+<td width="50%">
 
 <div align="center">
-  <img src="assets/mrf_sample.png" width="600" alt="Material Recovery Facility (MRF) Operation">
-  <br>
-  <i>A typical MRF operation where trucks dump mixed loads for processing.</i>
+
+**🏗️ The Construction Explosion**
+
+<img src="assets/development_sample.png" width="100%" alt="Construction Boom">
+
+*Massive C&D debris from rapid urban development.*
+
 </div>
 
-The standard process:
+</td>
+</tr>
+</table>
 
-1.  **Truck Arrival & Weigh-in:** The truck arrives at the scale house, gets weighed, and the driver declares the material type to collect a ticket.
-2.  **Dumping & Departure:** The truck proceeds to the tipping floor, dumps its material (into piles for either C&D or Yard Waste based on the declaration), and leaves.
+<br>
 
-> **The Critical Flaw:** At no point is there a reliable visual verification to ensure the dumped material matches the driver's declaration.
+> 💡 **The Result:** Landscape maintenance and rapid city development generate millions of tons of waste per year. This is where the problem begins.
+
+<br>
 
 ---
-### 💸 The Consequence: A $2.1 Billion Annual Loss
-This lack of verification and material identification creates a massive financial bleed across the U.S. waste industry.
 
-The industry loses an estimated **$2.1 Billion annually** due to three main factors:
+### 🚛 The Convergence Point
 
-1.  **Fraud & Misclassification ($1.2B):** This happens both inside the truck and the **Scale House**. Attendants or managers can manually modify material selections to declare cheaper rates, whether due to deliberate manipulation (collusion) or simple **human error**.
-2.  **Lack of Visual Proof ($630M):** When clients dispute a bill, the facility has no photo evidence to prove what was actually dumped, forcing them to issue refunds.
-3.  **Contaminated Loads ($210M):** When a load is not properly identified, it triggers a chain reaction of costs. Contaminated material often requires **reprocessing** (sorting the same pile twice), drastically increasing **operational costs**. Furthermore, wrong materials (like steel hiding in wood) cause severe **equipment damage**, leading to expensive repairs and downtime.
-   
-#### The $2.1 Billion Financial Bleed Breakdown
-This lack of visual verification costs U.S. recycling plants an estimated **$2.1 Billion every year**.
+Regardless of origin, all materials share the same destination: **Material Recovery Facilities (MRFs).** Thousands of haulers transport debris daily, creating a massive, mixed stream of incoming waste.
 
-```mermaid
-pie title "Financial losses in U.S MRFs ($2.1B Total)"
-    "Fraud & Misclassification ($1.2B)" : 1200
-    "Lack of Visual Proof ($630M)" : 630
-    "Contaminated Loads ($210M)" : 210
+<br>
+
+<div align="center">
+
+<img src="assets/mrf_sample.png" width="700" alt="Material Recovery Facility (MRF) Operation">
+
+*A typical MRF operation where trucks dump mixed loads for processing.*
+
+</div>
+
+<br>
+
+### The Standard Process
+
+| Step | Action |
+|:----:|--------|
+| **1** | Truck arrives at scale house, gets weighed |
+| **2** | Driver declares material type, collects ticket |
+| **3** | Truck proceeds to tipping floor |
+| **4** | Material dumped based on declaration |
+| **5** | Truck departs |
+
+<br>
+
+> ⚠️ **The Critical Flaw:** At no point is there reliable visual verification to ensure dumped material matches the driver's declaration.
+
+<br>
+
+---
+
+### 💸 The Cost: $2.1 Billion Lost Annually
+
+This verification gap creates a massive financial bleed across the U.S. waste industry.
+
+<br>
+
+<div align="center">
+
 ```
----
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║              U.S. MRF FINANCIAL LOSSES                           ║
+║              ─────────────────────────                           ║
+║                                                                  ║
+║     ████████████████████████████████████████  $1.2B  (57%)       ║
+║     Fraud & Misclassification                                    ║
+║                                                                  ║
+║     ████████████████████████                  $630M  (30%)       ║
+║     Lack of Visual Proof                                         ║
+║                                                                  ║
+║     ████████                                  $210M  (10%)       ║
+║     Contaminated Loads                                           ║
+║                                                                  ║
+║                                              ─────────           ║
+║                                      TOTAL:  $2.1 BILLION        ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
 
-## 💡 2. The Solution: MatID App
-**Accuracy, Speed, and Trust at the Tipping Floor**
-
-MatID is not just a model; it is an operational tool. By deploying our AI on rugged tablets, we identify the exact material trucks bring into the plant with **>99% accuracy**.
-
-This eliminates billing disputes instantly and gives plant managers clean, trustworthy data so they can finally make smart, data-driven decisions.
-
-### 📲 The Workflow: Streamlined Operation
-We optimized the dumping cycle to ensure speed and compliance.
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="300">
-        <img src="assets/truck_scale.png" width="250" alt="Step 1">
-        <br>
-        <b>Step 1: Truck Arrival & Weigh-in</b><br>
-        <i>Truck arrives at the scale house and weights in.</i>
-      </td>
-      <td align="center" width="300">
-        <img src="assets/truck_dump.png" width="250" alt="Step 2">
-        <br>
-        <b>Step 2: Dumping Material</b><br>
-        <i>Truck dumps material onto the designated area.</i>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="300">
-        <img src="assets/ipad_picture.png" width="250" alt="Step 3">
-        <br>
-        <b>Step 3: AI Material Scan</b><br>
-        <i>Spotter captures images with tablet using MatID app.</i>
-      </td>
-      <td align="center" width="300">
-        <img src="assets/print_ticket.png" width="250" alt="Step 4">
-        <br>
-        <b>Step 4: Ticket Prints</b><br>
-        <i>Mobile belt printer issues ticket instantly.</i>
-      </td>
-    </tr>
-  </table>
 </div>
 
-###  Key Operational Benefits 
-* **🚀 Increased Turnaround:** By removing manual inspection delays, the entire process is streamlined to under 5 minutes.
-* **📸 Irrefutable Visual Proof:** Every ticket includes a **timestamped photo** to prevent disputes.
-* **🚫 Fraud Prevention:** The AI eliminates human error, fraud and intentional misclassification at the point of service.
+<br>
+
+<details>
+<summary><b>📊 Breakdown of Losses</b></summary>
+
+<br>
+
+| Category | Loss | Description |
+|----------|------|-------------|
+| **Fraud & Misclassification** | $1.2B | Attendants or managers modify material selections for cheaper rates—whether through collusion or human error |
+| **Lack of Visual Proof** | $630M | No photo evidence when clients dispute bills, forcing facilities to issue refunds |
+| **Contaminated Loads** | $210M | Misidentified loads trigger reprocessing costs and equipment damage (e.g., steel hidden in wood) |
+
+</details>
+
+<br>
+
 ---
+
+## 💡 The Solution
+
+<div align="center">
+
+# MatID App
+
+### Accuracy. Speed. Trust.
+
+*At the Tipping Floor.*
+
+</div>
+
+<br>
+
+MatID isn't just a model—it's an operational tool. By deploying AI on rugged tablets, we identify exact materials with **>99% accuracy**.
+
+This eliminates billing disputes instantly and gives plant managers clean, trustworthy data for smart, data-driven decisions.
+
+<br>
+
+### 📲 The Workflow
+
+<br>
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+<img src="assets/truck_scale.png" width="180" alt="Step 1">
+
+**Step 1**
+
+*Truck Arrival & Weigh-in*
+
+</td>
+<td align="center" width="25%">
+
+<img src="assets/truck_dump.png" width="180" alt="Step 2">
+
+**Step 2**
+
+*Dumping Material*
+
+</td>
+<td align="center" width="25%">
+
+<img src="assets/ipad_picture.png" width="180" alt="Step 3">
+
+**Step 3**
+
+*AI Material Scan*
+
+</td>
+<td align="center" width="25%">
+
+<img src="assets/print_ticket.png" width="180" alt="Step 4">
+
+**Step 4**
+
+*Ticket Prints*
+
+</td>
+</tr>
+</table>
+
+<br>
+
+### Key Benefits
+
+| | Benefit | Impact |
+|:-:|---------|--------|
+| 🚀 | **Increased Turnaround** | Entire process streamlined to under 5 minutes |
+| 📸 | **Irrefutable Visual Proof** | Every ticket includes timestamped photo |
+| 🚫 | **Fraud Prevention** | AI eliminates human error and misclassification |
+
+<br>
+
+---
+
+## 🧠 Technical Approach
+
+### Modified AlexNet Architecture
+
+<br>
+
+> *Details about the AlexNet implementation and modifications for waste classification.*
+
+<br>
+
+---
+
+## 🧪 Experiments
+
+### Methodology
+
+<br>
+
+> *Details about experimental setup, hyperparameters, and training procedures.*
+
+<br>
+
+---
+
+## 📊 Results
+
+### Visualizations
+
+<br>
+
+> *Training curves, confusion matrices, and performance metrics.*
+
+<br>
+
+---
+
+## 📂 Deliverables
+
+### Project Resources
+
+<br>
+
+> *Links to notebooks, models, datasets, and documentation.*
+
+<br>
+
+---
+
+<div align="center">
+
+<br>
+
+Made with 🧠 for smarter waste management
+
+<br>
+
+</div>
