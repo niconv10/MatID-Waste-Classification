@@ -83,7 +83,7 @@ The industry loses an estimated **$2.1 Billion annually** due to three main fact
 3.  **Contaminated Loads ($210M):** Organic waste hiding in construction loads clogs shredders and ruins recyclable batches, driving up operating costs.
 
 ```mermaid
-pie title Annual Financial Losses in U.S. MRFs ($2.1B Total)
+pie title The $2.1 Billion Industry Loss Breakdown
     "Fraud & Misclassification ($1.2B)" : 1200
     "Lack of Visual Proof ($630M)" : 630
     "Contaminated Loads / Ops Costs ($210M)" : 210
