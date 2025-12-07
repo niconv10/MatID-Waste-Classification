@@ -65,7 +65,7 @@ Understanding how these facilities operate is key to seeing the problem.
   <i>A typical MRF operation where trucks dump mixed loads for processing.</i>
 </div>
 
-The standard process for a truck driver is simple but flawed:
+The standard process:
 
 1.  **Truck Arrival & Weigh-in:** The truck arrives at the scale house, gets weighed, and the driver declares the material type to collect a ticket.
 2.  **Dumping & Departure:** The truck proceeds to the tipping floor, dumps its material (into piles for either C&D or Yard Waste based on the declaration), and leaves.
