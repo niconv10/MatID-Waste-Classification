@@ -27,12 +27,14 @@
 <br>
 
 ---
-[![Problem](https://img.shields.io/badge/Problem-2E7D32?style=for-the-badge)](#-the-problem)
-[![Solution](https://img.shields.io/badge/Solution-F57C00?style=for-the-badge)](#-the-solution)
-[![Technical](https://img.shields.io/badge/Technical-7B1FA2?style=for-the-badge)](#-technical-approach)
-[![Experiments](https://img.shields.io/badge/Experiments-1976D2?style=for-the-badge)](#-experiments)
-[![Results](https://img.shields.io/badge/Results-C62828?style=for-the-badge)](#-results)
-[![Deliverables](https://img.shields.io/badge/Deliverables-00838F?style=for-the-badge)](#-deliverables)
+<p align="center">
+<a href="#-the-problem"><strong>Problem</strong></a> &nbsp;&nbsp;│&nbsp;&nbsp;
+<a href="#-the-solution"><strong>Solution</strong></a> &nbsp;&nbsp;│&nbsp;&nbsp;
+<a href="#-technical-approach"><strong>Technical</strong></a> &nbsp;&nbsp;│&nbsp;&nbsp;
+<a href="#-experiments"><strong>Experiments</strong></a> &nbsp;&nbsp;│&nbsp;&nbsp;
+<a href="#-results"><strong>Results</strong></a> &nbsp;&nbsp;│&nbsp;&nbsp;
+<a href="#-deliverables"><strong>Deliverables</strong></a>
+</p>
 
 ---
 
