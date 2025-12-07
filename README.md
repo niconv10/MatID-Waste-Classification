@@ -733,7 +733,7 @@ View the full interactive experiment tracking:
 
 ### 👤 About the Author
 
-**Nicolas** · Data Science & Analytics · Florida Atlantic University
+**Nicolas Navarro ** · Data Science & Analytics · Florida Atlantic University
 
 [![GitHub](https://img.shields.io/badge/GitHub-niconv13-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/niconv13)
 
@@ -743,7 +743,7 @@ View the full interactive experiment tracking:
 
 *MatID Final Project · Materials Identification · Dr. Hahn*
 
-Made with 🧠 for smarter waste management
+The AI Revolution in Waste Management
 
 <br>
 
