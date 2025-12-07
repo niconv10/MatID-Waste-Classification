@@ -14,7 +14,7 @@
 <br>
 
 <!-- Quick Stats Highlight -->
-🎯 **100% Accuracy** · 📊 **7 Experiments** · 🧠 **3 Architectures** · ⚡ **15 Epochs** · 🖼️ **952 Images**
+🎯 **100% Accuracy** · 📊 **7 Experiments** · 🧠 **3 Architectures** · ⚡ **15 Epochs** 
 
 <br>
 
