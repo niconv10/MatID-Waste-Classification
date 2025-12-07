@@ -85,8 +85,8 @@ The industry loses an estimated **$2.1 Billion annually** due to three main fact
 #### The $2.1 Billion Financial Bleed Breakdown
 This lack of visual verification costs U.S. recycling plants an estimated **$2.1 Billion every year**.
 
-```mermaid
- pie title "Annual Financial Losses in U.S. MRFs ($2.1B Total)"
+``mermaid
+pie title Annual Financial Losses in U.S. MRFs ($2.1B Total)
     "Fraud & Misclassification ($1.2B)" : 1200
     "Lack of Visual Proof ($630M)" : 630
-    "Contaminated Loads ($210M)" : 210
+    "Contaminated Loads / Ops Costs ($210M)" : 210
