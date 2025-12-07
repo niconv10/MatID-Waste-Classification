@@ -27,7 +27,7 @@
 <br>
 
 ---
-[![Problem](https://img.shields.io/badge/Problem-6366F1?style=flat)](/#-the-problem)  ·  [![Solution](https://img.shields.io/badge/Solution-8B5CF6?style=flat)](#-the-solution)  ·  [![Technical](https://img.shields.io/badge/Technical-EC4899?style=flat)](#-technical-approach)  ·  [![Experiments](https://img.shields.io/badge/Experiments-F59E0B?style=flat)](#-experiments)  ·  [![Results](https://img.shields.io/badge/Results-10B981?style=flat)](#-results)  ·  [![Deliverables](https://img.shields.io/badge/Deliverables-3B82F6?style=flat)](#-deliverables)
+[![Problem](https://img.shields.io/badge/Problem-556B2F?style=flat)](#-the-problem)  •  [![Solution](https://img.shields.io/badge/Solution-6B8E23?style=flat)](#-the-solution)  •  [![Technical](https://img.shields.io/badge/Technical-2F4F4F?style=flat)](#-technical-approach)  •  [![Experiments](https://img.shields.io/badge/Experiments-5F9EA0?style=flat)](#-experiments)  •  [![Results](https://img.shields.io/badge/Results-4682B4?style=flat)](#-results)  •  [![Deliverables](https://img.shields.io/badge/Deliverables-708090?style=flat)](#-deliverables)
 </div>
 
 <br>
