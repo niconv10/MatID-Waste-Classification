@@ -727,7 +727,7 @@ View the full interactive experiment tracking:
 <br>
 
 ### Nicolas Navarro
- · Data Science & Analytics · Florida Atlantic University
+  Data Science & Analytics · Florida Atlantic University
 
 [![GitHub](https://img.shields.io/badge/GitHub-niconv13-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/niconv13)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicolas-navarro-36971a295)
