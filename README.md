@@ -14,3 +14,14 @@
 </div>
 
 <br>
+
+## 📑 Navigation
+Use these links to jump to specific sections of the project:
+
+1. [🔴 **The Problem & Motivation**](#-1-problem--motivation-the-florida-context)
+2. [🧠 **Technical Approach (AlexNet)**](#-2-technical-approach-modified-alexnet)
+3. [🧪 **Experiments & Methodology**](#-3-experimental-methodology)
+4. [📊 **Results & Visualizations**](#-4-results--visualizations)
+5. [📂 **Project Deliverables**](#-5-project-deliverables-resources)
+
+---
