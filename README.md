@@ -195,7 +195,7 @@ This eliminates billing disputes instantly and gives plant managers clean, trust
 
 <br>
 
-### 📲 The Workflow
+###  The Workflow
 
 <br>
 
