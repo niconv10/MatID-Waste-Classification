@@ -135,11 +135,9 @@ We optimized the dumping cycle to ensure speed and compliance.
     </tr>
   </table>
 </div>
-### 🛡️ Key Operational Benefits
+###  Key Operational Benefits:
 * **🚀 Increased Turnaround:** By removing manual inspection delays, the entire process is streamlined to under 5 minutes.
 * **📸 Irrefutable Visual Proof:** Every ticket includes a **timestamped photo** to prevent disputes.
 * **🚫 Fraud Prevention:** The AI eliminates human error and intentional misclassification at the point of service.
-
-> **Technical Note:** The app runs a quantized version of our **AlexNet** model directly on edge devices (iPad), requiring no internet connection for inference.
 
 ---
