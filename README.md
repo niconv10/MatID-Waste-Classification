@@ -91,14 +91,6 @@ pie title "Financial losses in U.S MRFs ($2.1B Total)"
     "Lack of Visual Proof ($630M)" : 630
     "Contaminated Loads ($210M)" : 210
 ```
-
-
----
-
----
-
----
-
 ---
 
 ## 💡 2. The Solution: MatID App
