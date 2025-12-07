@@ -242,7 +242,7 @@ This eliminates billing disputes instantly and gives plant managers clean, trust
 
 ---
 
-> ## 🧠 Technical Approach
+## 🧠 Technical Approach
 
 ### Modified AlexNet Architecture
 
