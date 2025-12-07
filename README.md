@@ -54,7 +54,7 @@ To understand the waste problem, we must look at the source. Florida is defined 
 
 ---
 ### 🚛 From Source to Facility: The Convergence
-Regardless of the source, these materials share the same destination: **Material Recovery Facilities (MRFs).** Hundreds of haulers transport this debris to MRFs daily, creating a massive, mixed stream of incoming waste.
+Regardless of the source, these materials share the same destination: **Material Recovery Facilities (MRFs).** Thousands of haulers transport this debris to MRFs daily, creating a massive, mixed stream of incoming waste.
 
 ### 🏭 The MRF Workflow: A Typical Process
 Understanding how these facilities operate is key to seeing the problem.
