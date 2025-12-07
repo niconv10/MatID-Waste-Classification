@@ -19,11 +19,11 @@
 <br>
 
 <!-- Modernized Badge Row - Monochrome Theme -->
-[![Python](https://img.shields.io/badge/Python_3.10-000000?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org)
-[![Colab](https://img.shields.io/badge/Google_Colab-000000?style=flat-square&logo=googlecolab&logoColor=white)](https://colab.research.google.com)
-[![W&B](https://img.shields.io/badge/Weights_&_Biases-000000?style=flat-square&logo=weightsandbiases&logoColor=white)](https://wandb.ai)
-[![Status](https://img.shields.io/badge/Prototype-Complete-00C853?style=flat-square)](/)
+[![Python](https://img.shields.io/badge/Python_3.10-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
+[![Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com)
+[![W&B](https://img.shields.io/badge/Weights_&_Biases-FFCC33?style=for-the-badge&logo=weightsandbiases&logoColor=black)](https://wandb.ai)
+[![Status](https://img.shields.io/badge/Prototype-Complete-00C853?style=for-the-badge)](/)
 
 <br>
 
