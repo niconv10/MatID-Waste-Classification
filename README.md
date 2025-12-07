@@ -91,26 +91,3 @@ pie title "Financial losses in U.S MRFs ($2.1B Total)"
     "Lack of Visual Proof ($630M)" : 630
     "Contaminated Loads ($210M)" : 210
 ---
-
-## 💡 2. The Solution: MatID App
-**Accuracy, Speed, and Trust at the Tipping Floor**
-
-MatID is not just a model; it is an operational tool. By deploying our AI on rugged tablets, we identify the exact material trucks bring into the plant with **>99% accuracy** using just a couple of pictures.
-
-This eliminates billing disputes instantly and gives plant managers clean, trustworthy data so they can finally make smart, data-driven decisions.
-
-### 📲 The Workflow: "Dump, Scan, Ticket"
-We streamlined the process to ensure the entire dumping cycle takes **less than 5 minutes**.
-
-1.  **🚛 Dump:** The truck dumps material onto the designated area.
-2.  **📸 Scan:** A spotter captures images of the pile using the **MatID App** on a rugged tablet. The AlexNet model classifies the material instantly.
-3.  **🖨️ Ticket:** A mobile belt printer issues the ticket instantly with the correct material code.
-
-### 🛡️ Key Operational Benefits
-* **🚀 Increased Turnaround:** By removing manual inspection delays, the entire process is streamlined to under 5 minutes, reducing truck lines.
-* **📸 Irrefutable Visual Proof:** Every printed ticket includes a **timestamped photo** of the specific load. This prevents future disputes and insurance claims.
-* **🚫 Fraud Prevention:** The AI classifies the material and selects the correct billing code automatically. This eliminates human error, misclassification, and intentional fraud at the point of service.
-
-> **Technical Note:** The app runs a quantized version of our **AlexNet** model directly on the edge device, requiring no internet connection for inference.
-
----
