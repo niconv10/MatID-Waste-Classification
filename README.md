@@ -26,19 +26,14 @@ Use these links to jump to specific sections of the project:
 
 ---
 
-## ♻️ 1. Problem & Motivation: The $2.1 Billion Visibility Gap
-**The "Black Box" Truck Problem**
+# 🌴 1. Problem & Motivation
 
-Every day, hundreds of trucks dump massive loads at Material Recovery Facilities (MRFs). The plant charges tipping fees based on material type, but they face a critical problem: **they can't see inside the truck.**
+### The Florida Context: Beauty & Boom
+To understand the waste problem, we must look at where it comes from. Florida is defined by two massive forces:
 
-Currently, facilities rely solely on the **driver's declaration** of what they are carrying. This manual process is flawed and easily exploited. When the declaration doesn't match reality (e.g., stating "clean concrete" but dumping mixed trash), the plant loses significant money.
+1.  **The Standard of Beauty (Maintenance):** In Florida, keeping our state green and clean is a daily obsession. Manicured golf courses, neighborhoods, and highways generate millions of tons of **Yard Waste** annually.
+2.  **The Construction Explosion (Development):** Our state is defined by growth. Every new condo, outlet mall, and high-rise creates massive amounts of **Construction & Demolition (C&D)** debris.
 
-### The Financial Impact
-This lack of verification costs U.S. recycling plants an estimated **$2.1 Billion every year**.
+> **The Result:** Landscape maintenance and rapid city development generate millions of tons of waste per year. **This is where the problem begins.**
 
-```mermaid
-pie title Annual Financial Losses in U.S. MRFs ($2.1B Total)
-    "Fraud & Misclassification ($1.2B)" : 1200
-    "Lack of Visual Proof ($630M)" : 630
-    "Contaminated Loads ($210M)" : 210
-
+---
