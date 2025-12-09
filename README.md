@@ -708,7 +708,7 @@ View the full interactive experiment tracking:
 
 | Deliverable | Link | Description |
 |-------------|:----:|-------------|
-|  **Google Slides** | [View Presentation](https://docs.google.com/presentation/d/1ZzgIBRqlBk1ou9N-bGnRr_LlgwK2s6j1FHscOJhyeIM/edit?usp=sharing) | Problem overview + AlexNet explanation |
+| **Google Slides** | [View Presentation](https://docs.google.com/presentation/d/1zryt9xsmbU5peHPinGOMsCAhpCKc25lMZtZQUf2jdLw/edit?usp=sharing) | Problem overview + AlexNet explanation |
 |  **Colab Notebook** | [Open in Colab](https://colab.research.google.com/drive/13Qq0HmCp71YkqO0uD_e4UPU0d_J1AXIQ?usp=sharing) | Full implementation + all 7 experiments |
 |  **Scientific Poster** | [View Poster](https://docs.google.com/presentation/d/1vkFruMOSFoJSXPkU0TxhA2NnjSjbHlYb6ZSMy7hsWAU/edit?usp=sharing) | Academic poster summarizing results |
 |  **Presentation Video** | [Watch Video](#) | 3-8 minute project walkthrough |
